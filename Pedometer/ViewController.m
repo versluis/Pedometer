@@ -77,7 +77,7 @@
     
     // step counting
     if ([CMPedometer isStepCountingAvailable]) {
-        self.stepsLabel.text = [NSString stringWithFormat:@"Steps: %@", [formatter stringFromNumber:pedometerData.numberOfSteps]];
+        self.stepsLabel.text = [NSString stringWithFormat:@"Steps walked: %@", [formatter stringFromNumber:pedometerData.numberOfSteps]];
     } else {
         self.stepsLabel.text = @"Step Counter not available.";
     }
@@ -91,7 +91,7 @@
     
     // pace
     if ([CMPedometer isPaceAvailable] && pedometerData.currentPace) {
-        self.paceLabel.text = [NSString stringWithFormat:@"Current Pace: \n%@seconds per meter", [formatter stringFromNumber:pedometerData.currentPace]];
+        self.paceLabel.text = [NSString stringWithFormat:@"Current Pace: \n%@ seconds per meter", [formatter stringFromNumber:pedometerData.currentPace]];
     } else {
         self.paceLabel.text = @"Pace not available.";
     }
