@@ -16,19 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.datePicker.date = self.date;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (NSString *)hello {
-    
-    return @"Hello from the Date Picker View Controller!";
-}
-
 
 - (IBAction)doneButtonPressed:(id)sender {
 
