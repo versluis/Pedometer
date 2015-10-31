@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4AR-jv-aNH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hYW-DI-E85">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
     </dependencies>
     <scenes>
-        <!--Pedometer-->
+        <!--Live Pedometer-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -73,7 +73,7 @@
                             <constraint firstItem="Nfi-Ww-89M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LIq-gd-Dua"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Pedometer" id="qyQ-ZM-DK2">
+                    <navigationItem key="navigationItem" title="Live Pedometer" id="qyQ-ZM-DK2">
                         <barButtonItem key="leftBarButtonItem" title="Stop" id="fbE-ro-i9X">
                             <connections>
                                 <action selector="stopTracking:" destination="BYZ-38-t0r" id="Ujr-i9-DzW"/>
@@ -98,10 +98,11 @@
             </objects>
             <point key="canvasLocation" x="1690" y="658"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Live Pedometer-->
         <scene sceneID="LQi-Bb-bfU">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4AR-jv-aNH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Live Pedometer" id="cep-K7-N5g"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QZQ-Cl-IuQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -115,7 +116,194 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2fM-zY-MkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="878" y="1318"/>
+            <point key="canvasLocation" x="814" y="1318"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="7XB-QO-tBC">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hYW-DI-E85" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="fRd-BF-nXk">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3wa-l0-g9X" kind="relationship" relationship="viewControllers" id="lrc-fW-MqY"/>
+                        <segue destination="4AR-jv-aNH" kind="relationship" relationship="viewControllers" id="4ox-lg-Byz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7kT-bL-t5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103" y="1318"/>
+        </scene>
+        <!--Historic Steps-->
+        <scene sceneID="Ya4-Z3-Ofb">
+            <objects>
+                <viewController id="5ax-sN-BZd" customClass="HistoricViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FRH-Dw-PU1"/>
+                        <viewControllerLayoutGuide type="bottom" id="i7E-ve-ZQs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Qi-hc-FA7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ybf-lv-Hdj">
+                                <rect key="frame" x="220" y="237" width="160" height="126"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMZ-No-YWv">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="42"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Start Date"/>
+                                        <connections>
+                                            <action selector="startDateEntered:" destination="5ax-sN-BZd" eventType="touchUpInside" id="OSi-Oi-2gz"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="we need a start date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWi-aq-1HO">
+                                        <rect key="frame" x="0.0" y="42" width="160" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4B6-V3-soA">
+                                        <rect key="frame" x="0.0" y="63" width="160" height="42"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="End Date"/>
+                                        <connections>
+                                            <action selector="endDateEnterted:" destination="5ax-sN-BZd" eventType="touchUpInside" id="5pF-Mc-EkM"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="we need an end date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDw-wj-3Iv">
+                                        <rect key="frame" x="0.0" y="105" width="160" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ybf-lv-Hdj" firstAttribute="centerX" secondItem="1Qi-hc-FA7" secondAttribute="centerX" id="1mK-rF-Xa6"/>
+                            <constraint firstItem="ybf-lv-Hdj" firstAttribute="centerY" secondItem="1Qi-hc-FA7" secondAttribute="centerY" id="nPq-2N-l5e"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Historic Steps" id="aJf-jW-bDx">
+                        <barButtonItem key="rightBarButtonItem" title="Ask Pedometer" id="ww5-tV-XD1">
+                            <connections>
+                                <action selector="queryPedometer:" destination="5ax-sN-BZd" id="2m9-l8-nz5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="endDateLabel" destination="rDw-wj-3Iv" id="p2s-qi-lWf"/>
+                        <outlet property="startDateLabel" destination="NWi-aq-1HO" id="ci6-Px-eyE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7qZ-Mx-4fa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1507" y="2087"/>
+        </scene>
+        <!--Pick a Date-->
+        <scene sceneID="yS6-m8-Rb1">
+            <objects>
+                <viewController id="dAn-gE-zTm" customClass="DatePickerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="maH-9e-LHb"/>
+                        <viewControllerLayoutGuide type="bottom" id="JGD-Jf-GDA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="phG-s4-ZMV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BkY-Nd-fWf">
+                                <rect key="frame" x="140" y="192" width="320" height="216"/>
+                                <subviews>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="xsY-L8-xvh">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                                        <animations/>
+                                        <date key="date" timeIntervalSinceReferenceDate="468000905.92976898">
+                                            <!--2015-10-31 16:15:05 +0000-->
+                                        </date>
+                                    </datePicker>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BkY-Nd-fWf" firstAttribute="centerY" secondItem="phG-s4-ZMV" secondAttribute="centerY" id="Gfa-pQ-agM"/>
+                            <constraint firstItem="BkY-Nd-fWf" firstAttribute="centerX" secondItem="phG-s4-ZMV" secondAttribute="centerX" id="Ueb-Og-V20"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pick a Date" id="zGI-tF-vcD">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="e96-IS-q5Q">
+                            <connections>
+                                <action selector="cancelButtonPressed:" destination="dAn-gE-zTm" id="tp7-sN-peZ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="JFf-go-eVM">
+                            <connections>
+                                <action selector="doneButtonPressed:" destination="dAn-gE-zTm" id="t54-H7-nhh"/>
+                                <segue destination="XHg-NT-mtF" kind="unwind" unwindAction="dateReceived:" id="uDS-MZ-Xzg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="datePicker" destination="xsY-L8-xvh" id="Kk4-OS-QQh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GwB-Ec-23i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="XHg-NT-mtF" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1507" y="2796"/>
+        </scene>
+        <!--Historic Steps-->
+        <scene sceneID="ch7-f0-YGK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3wa-l0-g9X" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Historic Steps" id="fsZ-PJ-nf3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fSg-09-xKT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5ax-sN-BZd" kind="relationship" relationship="rootViewController" id="Jd8-NP-S6r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qzl-MH-DTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="2087"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HBd-EO-GdF">
+            <objects>
+                <navigationController storyboardIdentifier="DatePicker" automaticallyAdjustsScrollViewInsets="NO" id="xqX-fs-OtJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DLB-EM-gZT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dAn-gE-zTm" kind="relationship" relationship="rootViewController" id="kbh-UI-cf7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzQ-3l-CGt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="2796"/>
         </scene>
     </scenes>
 </document>

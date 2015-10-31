@@ -15,6 +15,8 @@
 		D26281831BE200A500162BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26281811BE200A500162BFE /* LaunchScreen.storyboard */; };
 		D262818E1BE200A500162BFE /* PedometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D262818D1BE200A500162BFE /* PedometerTests.m */; };
 		D26281991BE200A500162BFE /* PedometerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26281981BE200A500162BFE /* PedometerUITests.m */; };
+		D2F20DF11BE5108600A84B4E /* HistoricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F20DF01BE5108600A84B4E /* HistoricViewController.m */; };
+		D2F20DF71BE5127A00A84B4E /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F20DF61BE5127A00A84B4E /* DatePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D26281941BE200A500162BFE /* PedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26281981BE200A500162BFE /* PedometerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedometerUITests.m; sourceTree = "<group>"; };
 		D262819A1BE200A500162BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F20DEF1BE5108600A84B4E /* HistoricViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricViewController.h; sourceTree = "<group>"; };
+		D2F20DF01BE5108600A84B4E /* HistoricViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricViewController.m; sourceTree = "<group>"; };
+		D2F20DF51BE5127A00A84B4E /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		D2F20DF61BE5127A00A84B4E /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				D26281771BE200A500162BFE /* AppDelegate.m */,
 				D26281791BE200A500162BFE /* ViewController.h */,
 				D262817A1BE200A500162BFE /* ViewController.m */,
+				D2F20DEF1BE5108600A84B4E /* HistoricViewController.h */,
+				D2F20DF01BE5108600A84B4E /* HistoricViewController.m */,
+				D2F20DF51BE5127A00A84B4E /* DatePickerViewController.h */,
+				D2F20DF61BE5127A00A84B4E /* DatePickerViewController.m */,
 				D262817C1BE200A500162BFE /* Main.storyboard */,
 				D262817F1BE200A500162BFE /* Assets.xcassets */,
 				D26281811BE200A500162BFE /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				D262817B1BE200A500162BFE /* ViewController.m in Sources */,
 				D26281781BE200A500162BFE /* AppDelegate.m in Sources */,
 				D26281751BE200A500162BFE /* main.m in Sources */,
+				D2F20DF71BE5127A00A84B4E /* DatePickerViewController.m in Sources */,
+				D2F20DF11BE5108600A84B4E /* HistoricViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				D262819F1BE200A500162BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D26281A01BE200A500162BFE /* Build configuration list for PBXNativeTarget "PedometerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				D26281A21BE200A500162BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D26281A31BE200A500162BFE /* Build configuration list for PBXNativeTarget "PedometerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				D26281A51BE200A500162BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
