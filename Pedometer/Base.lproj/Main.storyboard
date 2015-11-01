@@ -102,7 +102,7 @@
         <scene sceneID="LQi-Bb-bfU">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4AR-jv-aNH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Live Pedometer" id="cep-K7-N5g"/>
+                    <tabBarItem key="tabBarItem" title="Live Pedometer" image="Live" id="cep-K7-N5g"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QZQ-Cl-IuQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -226,7 +226,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BkY-Nd-fWf">
                                 <rect key="frame" x="140" y="192" width="320" height="216"/>
                                 <subviews>
-                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="xsY-L8-xvh">
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="10" translatesAutoresizingMaskIntoConstraints="NO" id="xsY-L8-xvh">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
                                         <animations/>
                                         <date key="date" timeIntervalSinceReferenceDate="468000905.92976898">
@@ -270,7 +270,7 @@
         <scene sceneID="ch7-f0-YGK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3wa-l0-g9X" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Historic Steps" id="fsZ-PJ-nf3"/>
+                    <tabBarItem key="tabBarItem" title="Historic Steps" image="Past" id="fsZ-PJ-nf3"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fSg-09-xKT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -306,4 +306,8 @@
             <point key="canvasLocation" x="814" y="2796"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Live" width="25" height="25"/>
+        <image name="Past" width="25" height="25"/>
+    </resources>
 </document>
