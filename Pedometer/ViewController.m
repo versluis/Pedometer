@@ -107,13 +107,13 @@
     if ([CMPedometer isFloorCountingAvailable] && pedometerData.floorsAscended) {
         self.flightsUpLabel.text = [NSString stringWithFormat:@"Floors ascended: %@", pedometerData.floorsAscended];
     } else {
-        self.flightsUpLabel.text = @"Floors ascended not available.";
+        self.flightsUpLabel.text = @"Floors ascended\nnot available.";
     }
     
     if ([CMPedometer isFloorCountingAvailable] && pedometerData.floorsDescended) {
         self.flightsDownLabel.text =[NSString stringWithFormat:@"Floors descended: %@", pedometerData.floorsDescended];
     } else {
-        self.flightsUpLabel.text = @"Floors descended not available.";
+        self.flightsDownLabel.text = @"Floors descended\nnot available.";
     }
 
 }
