@@ -190,7 +190,7 @@
         floorsDown = @"not available";
     }
     
-    NSString *message = [NSString stringWithFormat:@"Total steps: %@\nTotal Distance: %@\nFloors climbed up: %@\nFloors climbed down: %@", steps, distance, floorsUp, floorsDown];
+    NSString *message = [NSString stringWithFormat:@"Total steps: %@\nTotal Distance: %@m\nFloors climbed up: %@\nFloors climbed down: %@", steps, distance, floorsUp, floorsDown];
     
     // create an alert view
     UIAlertController *controller = [UIAlertController alertControllerWithTitle:@"Results" message:message preferredStyle:UIAlertControllerStyleAlert];
