@@ -40,6 +40,8 @@
     return _pedometer;
 }
 
+# pragma mark - Buttons
+
 - (NSDate *)startDate {
     
     // set the start date to yesterday
@@ -80,6 +82,48 @@
     
     [self showDatePickerWithType:@"endDate"];
 }
+
+- (IBAction)lastThreeHours:(id)sender {
+    
+    // take "now" as end date
+    NSDate *now = [NSDate date];
+    
+    // subtract three hours
+    NSCalendar *gregorian = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *components = [[NSDateComponents alloc]init];
+    components.hour = -3;
+    NSDate *threeHoursAgo = [gregorian dateByAddingComponents:components toDate:now options:0];
+    
+    // display results
+    [self.pedometer queryPedometerDataFromDate:threeHoursAgo toDate:now withHandler:^(CMPedometerData * _Nullable pedometerData, NSError * _Nullable error) {
+        
+        [self presentPedometerData:pedometerData];
+    }];
+}
+
+- (IBAction)allStepsToday:(id)sender {
+    
+    // take "now" and normalise the start date to midnight
+    NSDate *now = [NSDate date];
+    NSCalendar *gregorian = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *components = [gregorian components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay) fromDate:now];
+    NSDate *start = [gregorian dateFromComponents:components];
+    
+    // take "now" and normalise to 23:59
+    components.hour = 23;
+    components.minute = 59;
+    components.second = 59;
+    NSDate *end = [gregorian dateFromComponents:components];
+    
+    // display results
+    [self.pedometer queryPedometerDataFromDate:start toDate:end withHandler:^(CMPedometerData * _Nullable pedometerData, NSError * _Nullable error) {
+        
+        [self presentPedometerData:pedometerData];
+    }];
+}
+
+
+# pragma mark - Date Methods
 
 - (NSString *)turnDateIntoString:(NSDate *)date {
     
