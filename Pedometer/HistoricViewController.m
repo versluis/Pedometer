@@ -236,6 +236,11 @@
     
     NSString *message = [NSString stringWithFormat:@"Total steps: %@\nTotal Distance: %@m\nFloors climbed up: %@\nFloors climbed down: %@", steps, distance, floorsUp, floorsDown];
     
+    // do not display floor count if it's unavailable
+    if (![CMPedometer isFloorCountingAvailable]) {
+        message = [NSString stringWithFormat:@"Total steps: %@\nTotal Distance: %@m", steps, distance];
+    }
+    
     // create an alert view
     UIAlertController *controller = [UIAlertController alertControllerWithTitle:@"Results" message:message preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"Excellent!" style:UIAlertActionStyleDefault handler:nil];
