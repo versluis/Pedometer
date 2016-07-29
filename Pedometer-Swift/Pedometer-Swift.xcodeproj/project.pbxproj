@@ -7,68 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2FAC2BA1D4BB1E20035E0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2B91D4BB1E20035E0F1 /* main.m */; };
-		D2FAC2BD1D4BB1E20035E0F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2BC1D4BB1E20035E0F1 /* AppDelegate.m */; };
-		D2FAC2C01D4BB1E20035E0F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2BF1D4BB1E20035E0F1 /* ViewController.m */; };
-		D2FAC2C31D4BB1E20035E0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC2C11D4BB1E20035E0F1 /* Main.storyboard */; };
-		D2FAC2C51D4BB1E20035E0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC2C41D4BB1E20035E0F1 /* Assets.xcassets */; };
-		D2FAC2C81D4BB1E20035E0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC2C61D4BB1E20035E0F1 /* LaunchScreen.storyboard */; };
-		D2FAC2D31D4BB1E20035E0F1 /* Pedometer_SwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2D21D4BB1E20035E0F1 /* Pedometer_SwiftTests.m */; };
-		D2FAC2DE1D4BB1E20035E0F1 /* Pedometer_SwiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2DD1D4BB1E20035E0F1 /* Pedometer_SwiftUITests.m */; };
+		D2FAC2F81D4BB4650035E0F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2F71D4BB4650035E0F1 /* AppDelegate.swift */; };
+		D2FAC2FA1D4BB4650035E0F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2F91D4BB4650035E0F1 /* ViewController.swift */; };
+		D2FAC2FD1D4BB4650035E0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC2FB1D4BB4650035E0F1 /* Main.storyboard */; };
+		D2FAC2FF1D4BB4650035E0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC2FE1D4BB4650035E0F1 /* Assets.xcassets */; };
+		D2FAC3021D4BB4650035E0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC3001D4BB4650035E0F1 /* LaunchScreen.storyboard */; };
+		D2FAC30D1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC30C1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift */; };
+		D2FAC3181D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC3171D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D2FAC2CF1D4BB1E20035E0F1 /* PBXContainerItemProxy */ = {
+		D2FAC3091D4BB4650035E0F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2FAC2AD1D4BB1E20035E0F1 /* Project object */;
+			containerPortal = D2FAC2EC1D4BB4650035E0F1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2FAC2B41D4BB1E20035E0F1;
+			remoteGlobalIDString = D2FAC2F31D4BB4650035E0F1;
 			remoteInfo = "Pedometer-Swift";
 		};
-		D2FAC2DA1D4BB1E20035E0F1 /* PBXContainerItemProxy */ = {
+		D2FAC3141D4BB4650035E0F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2FAC2AD1D4BB1E20035E0F1 /* Project object */;
+			containerPortal = D2FAC2EC1D4BB4650035E0F1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2FAC2B41D4BB1E20035E0F1;
+			remoteGlobalIDString = D2FAC2F31D4BB4650035E0F1;
 			remoteInfo = "Pedometer-Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2FAC2B51D4BB1E20035E0F1 /* Pedometer-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pedometer-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2FAC2B91D4BB1E20035E0F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D2FAC2BB1D4BB1E20035E0F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D2FAC2BC1D4BB1E20035E0F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D2FAC2BE1D4BB1E20035E0F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2FAC2BF1D4BB1E20035E0F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D2FAC2C21D4BB1E20035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2FAC2C41D4BB1E20035E0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2FAC2C71D4BB1E20035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D2FAC2C91D4BB1E20035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2FAC2CE1D4BB1E20035E0F1 /* Pedometer-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pedometer-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2FAC2D21D4BB1E20035E0F1 /* Pedometer_SwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pedometer_SwiftTests.m; sourceTree = "<group>"; };
-		D2FAC2D41D4BB1E20035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2FAC2D91D4BB1E20035E0F1 /* Pedometer-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pedometer-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2FAC2DD1D4BB1E20035E0F1 /* Pedometer_SwiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pedometer_SwiftUITests.m; sourceTree = "<group>"; };
-		D2FAC2DF1D4BB1E20035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FAC2F41D4BB4650035E0F1 /* Pedometer-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pedometer-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FAC2F71D4BB4650035E0F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2FAC2F91D4BB4650035E0F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2FAC2FC1D4BB4650035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2FAC2FE1D4BB4650035E0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2FAC3011D4BB4650035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2FAC3031D4BB4650035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FAC3081D4BB4650035E0F1 /* Pedometer-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pedometer-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FAC30C1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer_SwiftTests.swift; sourceTree = "<group>"; };
+		D2FAC30E1D4BB4650035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FAC3131D4BB4650035E0F1 /* Pedometer-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pedometer-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FAC3171D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer_SwiftUITests.swift; sourceTree = "<group>"; };
+		D2FAC3191D4BB4650035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2FAC2B21D4BB1E20035E0F1 /* Frameworks */ = {
+		D2FAC2F11D4BB4650035E0F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FAC2CB1D4BB1E20035E0F1 /* Frameworks */ = {
+		D2FAC3051D4BB4650035E0F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FAC2D61D4BB1E20035E0F1 /* Frameworks */ = {
+		D2FAC3101D4BB4650035E0F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,64 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2FAC2AC1D4BB1E20035E0F1 = {
+		D2FAC2EB1D4BB4650035E0F1 = {
 			isa = PBXGroup;
 			children = (
-				D2FAC2B71D4BB1E20035E0F1 /* Pedometer-Swift */,
-				D2FAC2D11D4BB1E20035E0F1 /* Pedometer-SwiftTests */,
-				D2FAC2DC1D4BB1E20035E0F1 /* Pedometer-SwiftUITests */,
-				D2FAC2B61D4BB1E20035E0F1 /* Products */,
+				D2FAC2F61D4BB4650035E0F1 /* Pedometer-Swift */,
+				D2FAC30B1D4BB4650035E0F1 /* Pedometer-SwiftTests */,
+				D2FAC3161D4BB4650035E0F1 /* Pedometer-SwiftUITests */,
+				D2FAC2F51D4BB4650035E0F1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D2FAC2B61D4BB1E20035E0F1 /* Products */ = {
+		D2FAC2F51D4BB4650035E0F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2FAC2B51D4BB1E20035E0F1 /* Pedometer-Swift.app */,
-				D2FAC2CE1D4BB1E20035E0F1 /* Pedometer-SwiftTests.xctest */,
-				D2FAC2D91D4BB1E20035E0F1 /* Pedometer-SwiftUITests.xctest */,
+				D2FAC2F41D4BB4650035E0F1 /* Pedometer-Swift.app */,
+				D2FAC3081D4BB4650035E0F1 /* Pedometer-SwiftTests.xctest */,
+				D2FAC3131D4BB4650035E0F1 /* Pedometer-SwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2FAC2B71D4BB1E20035E0F1 /* Pedometer-Swift */ = {
+		D2FAC2F61D4BB4650035E0F1 /* Pedometer-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D2FAC2BB1D4BB1E20035E0F1 /* AppDelegate.h */,
-				D2FAC2BC1D4BB1E20035E0F1 /* AppDelegate.m */,
-				D2FAC2BE1D4BB1E20035E0F1 /* ViewController.h */,
-				D2FAC2BF1D4BB1E20035E0F1 /* ViewController.m */,
-				D2FAC2C11D4BB1E20035E0F1 /* Main.storyboard */,
-				D2FAC2C41D4BB1E20035E0F1 /* Assets.xcassets */,
-				D2FAC2C61D4BB1E20035E0F1 /* LaunchScreen.storyboard */,
-				D2FAC2C91D4BB1E20035E0F1 /* Info.plist */,
-				D2FAC2B81D4BB1E20035E0F1 /* Supporting Files */,
+				D2FAC2F71D4BB4650035E0F1 /* AppDelegate.swift */,
+				D2FAC2F91D4BB4650035E0F1 /* ViewController.swift */,
+				D2FAC2FB1D4BB4650035E0F1 /* Main.storyboard */,
+				D2FAC2FE1D4BB4650035E0F1 /* Assets.xcassets */,
+				D2FAC3001D4BB4650035E0F1 /* LaunchScreen.storyboard */,
+				D2FAC3031D4BB4650035E0F1 /* Info.plist */,
 			);
 			path = "Pedometer-Swift";
 			sourceTree = "<group>";
 		};
-		D2FAC2B81D4BB1E20035E0F1 /* Supporting Files */ = {
+		D2FAC30B1D4BB4650035E0F1 /* Pedometer-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2FAC2B91D4BB1E20035E0F1 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D2FAC2D11D4BB1E20035E0F1 /* Pedometer-SwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				D2FAC2D21D4BB1E20035E0F1 /* Pedometer_SwiftTests.m */,
-				D2FAC2D41D4BB1E20035E0F1 /* Info.plist */,
+				D2FAC30C1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift */,
+				D2FAC30E1D4BB4650035E0F1 /* Info.plist */,
 			);
 			path = "Pedometer-SwiftTests";
 			sourceTree = "<group>";
 		};
-		D2FAC2DC1D4BB1E20035E0F1 /* Pedometer-SwiftUITests */ = {
+		D2FAC3161D4BB4650035E0F1 /* Pedometer-SwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D2FAC2DD1D4BB1E20035E0F1 /* Pedometer_SwiftUITests.m */,
-				D2FAC2DF1D4BB1E20035E0F1 /* Info.plist */,
+				D2FAC3171D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift */,
+				D2FAC3191D4BB4650035E0F1 /* Info.plist */,
 			);
 			path = "Pedometer-SwiftUITests";
 			sourceTree = "<group>";
@@ -143,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2FAC2B41D4BB1E20035E0F1 /* Pedometer-Swift */ = {
+		D2FAC2F31D4BB4650035E0F1 /* Pedometer-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2FAC2E21D4BB1E20035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-Swift" */;
+			buildConfigurationList = D2FAC31C1D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-Swift" */;
 			buildPhases = (
-				D2FAC2B11D4BB1E20035E0F1 /* Sources */,
-				D2FAC2B21D4BB1E20035E0F1 /* Frameworks */,
-				D2FAC2B31D4BB1E20035E0F1 /* Resources */,
+				D2FAC2F01D4BB4650035E0F1 /* Sources */,
+				D2FAC2F11D4BB4650035E0F1 /* Frameworks */,
+				D2FAC2F21D4BB4650035E0F1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,68 +142,69 @@
 			);
 			name = "Pedometer-Swift";
 			productName = "Pedometer-Swift";
-			productReference = D2FAC2B51D4BB1E20035E0F1 /* Pedometer-Swift.app */;
+			productReference = D2FAC2F41D4BB4650035E0F1 /* Pedometer-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2FAC2CD1D4BB1E20035E0F1 /* Pedometer-SwiftTests */ = {
+		D2FAC3071D4BB4650035E0F1 /* Pedometer-SwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2FAC2E51D4BB1E20035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftTests" */;
+			buildConfigurationList = D2FAC31F1D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftTests" */;
 			buildPhases = (
-				D2FAC2CA1D4BB1E20035E0F1 /* Sources */,
-				D2FAC2CB1D4BB1E20035E0F1 /* Frameworks */,
-				D2FAC2CC1D4BB1E20035E0F1 /* Resources */,
+				D2FAC3041D4BB4650035E0F1 /* Sources */,
+				D2FAC3051D4BB4650035E0F1 /* Frameworks */,
+				D2FAC3061D4BB4650035E0F1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2FAC2D01D4BB1E20035E0F1 /* PBXTargetDependency */,
+				D2FAC30A1D4BB4650035E0F1 /* PBXTargetDependency */,
 			);
 			name = "Pedometer-SwiftTests";
 			productName = "Pedometer-SwiftTests";
-			productReference = D2FAC2CE1D4BB1E20035E0F1 /* Pedometer-SwiftTests.xctest */;
+			productReference = D2FAC3081D4BB4650035E0F1 /* Pedometer-SwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D2FAC2D81D4BB1E20035E0F1 /* Pedometer-SwiftUITests */ = {
+		D2FAC3121D4BB4650035E0F1 /* Pedometer-SwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2FAC2E81D4BB1E20035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftUITests" */;
+			buildConfigurationList = D2FAC3221D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftUITests" */;
 			buildPhases = (
-				D2FAC2D51D4BB1E20035E0F1 /* Sources */,
-				D2FAC2D61D4BB1E20035E0F1 /* Frameworks */,
-				D2FAC2D71D4BB1E20035E0F1 /* Resources */,
+				D2FAC30F1D4BB4650035E0F1 /* Sources */,
+				D2FAC3101D4BB4650035E0F1 /* Frameworks */,
+				D2FAC3111D4BB4650035E0F1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2FAC2DB1D4BB1E20035E0F1 /* PBXTargetDependency */,
+				D2FAC3151D4BB4650035E0F1 /* PBXTargetDependency */,
 			);
 			name = "Pedometer-SwiftUITests";
 			productName = "Pedometer-SwiftUITests";
-			productReference = D2FAC2D91D4BB1E20035E0F1 /* Pedometer-SwiftUITests.xctest */;
+			productReference = D2FAC3131D4BB4650035E0F1 /* Pedometer-SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2FAC2AD1D4BB1E20035E0F1 /* Project object */ = {
+		D2FAC2EC1D4BB4650035E0F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Pinkstone Pictures LLC";
 				TargetAttributes = {
-					D2FAC2B41D4BB1E20035E0F1 = {
+					D2FAC2F31D4BB4650035E0F1 = {
 						CreatedOnToolsVersion = 7.3;
 					};
-					D2FAC2CD1D4BB1E20035E0F1 = {
+					D2FAC3071D4BB4650035E0F1 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = D2FAC2B41D4BB1E20035E0F1;
+						TestTargetID = D2FAC2F31D4BB4650035E0F1;
 					};
-					D2FAC2D81D4BB1E20035E0F1 = {
+					D2FAC3121D4BB4650035E0F1 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = D2FAC2B41D4BB1E20035E0F1;
+						TestTargetID = D2FAC2F31D4BB4650035E0F1;
 					};
 				};
 			};
-			buildConfigurationList = D2FAC2B01D4BB1E20035E0F1 /* Build configuration list for PBXProject "Pedometer-Swift" */;
+			buildConfigurationList = D2FAC2EF1D4BB4650035E0F1 /* Build configuration list for PBXProject "Pedometer-Swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D2FAC2AC1D4BB1E20035E0F1;
-			productRefGroup = D2FAC2B61D4BB1E20035E0F1 /* Products */;
+			mainGroup = D2FAC2EB1D4BB4650035E0F1;
+			productRefGroup = D2FAC2F51D4BB4650035E0F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2FAC2B41D4BB1E20035E0F1 /* Pedometer-Swift */,
-				D2FAC2CD1D4BB1E20035E0F1 /* Pedometer-SwiftTests */,
-				D2FAC2D81D4BB1E20035E0F1 /* Pedometer-SwiftUITests */,
+				D2FAC2F31D4BB4650035E0F1 /* Pedometer-Swift */,
+				D2FAC3071D4BB4650035E0F1 /* Pedometer-SwiftTests */,
+				D2FAC3121D4BB4650035E0F1 /* Pedometer-SwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2FAC2B31D4BB1E20035E0F1 /* Resources */ = {
+		D2FAC2F21D4BB4650035E0F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FAC2C81D4BB1E20035E0F1 /* LaunchScreen.storyboard in Resources */,
-				D2FAC2C51D4BB1E20035E0F1 /* Assets.xcassets in Resources */,
-				D2FAC2C31D4BB1E20035E0F1 /* Main.storyboard in Resources */,
+				D2FAC3021D4BB4650035E0F1 /* LaunchScreen.storyboard in Resources */,
+				D2FAC2FF1D4BB4650035E0F1 /* Assets.xcassets in Resources */,
+				D2FAC2FD1D4BB4650035E0F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FAC2CC1D4BB1E20035E0F1 /* Resources */ = {
+		D2FAC3061D4BB4650035E0F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FAC2D71D4BB1E20035E0F1 /* Resources */ = {
+		D2FAC3111D4BB4650035E0F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2FAC2B11D4BB1E20035E0F1 /* Sources */ = {
+		D2FAC2F01D4BB4650035E0F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FAC2C01D4BB1E20035E0F1 /* ViewController.m in Sources */,
-				D2FAC2BD1D4BB1E20035E0F1 /* AppDelegate.m in Sources */,
-				D2FAC2BA1D4BB1E20035E0F1 /* main.m in Sources */,
+				D2FAC2FA1D4BB4650035E0F1 /* ViewController.swift in Sources */,
+				D2FAC2F81D4BB4650035E0F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FAC2CA1D4BB1E20035E0F1 /* Sources */ = {
+		D2FAC3041D4BB4650035E0F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FAC2D31D4BB1E20035E0F1 /* Pedometer_SwiftTests.m in Sources */,
+				D2FAC30D1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FAC2D51D4BB1E20035E0F1 /* Sources */ = {
+		D2FAC30F1D4BB4650035E0F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FAC2DE1D4BB1E20035E0F1 /* Pedometer_SwiftUITests.m in Sources */,
+				D2FAC3181D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2FAC2D01D4BB1E20035E0F1 /* PBXTargetDependency */ = {
+		D2FAC30A1D4BB4650035E0F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2FAC2B41D4BB1E20035E0F1 /* Pedometer-Swift */;
-			targetProxy = D2FAC2CF1D4BB1E20035E0F1 /* PBXContainerItemProxy */;
+			target = D2FAC2F31D4BB4650035E0F1 /* Pedometer-Swift */;
+			targetProxy = D2FAC3091D4BB4650035E0F1 /* PBXContainerItemProxy */;
 		};
-		D2FAC2DB1D4BB1E20035E0F1 /* PBXTargetDependency */ = {
+		D2FAC3151D4BB4650035E0F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2FAC2B41D4BB1E20035E0F1 /* Pedometer-Swift */;
-			targetProxy = D2FAC2DA1D4BB1E20035E0F1 /* PBXContainerItemProxy */;
+			target = D2FAC2F31D4BB4650035E0F1 /* Pedometer-Swift */;
+			targetProxy = D2FAC3141D4BB4650035E0F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2FAC2C11D4BB1E20035E0F1 /* Main.storyboard */ = {
+		D2FAC2FB1D4BB4650035E0F1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2FAC2C21D4BB1E20035E0F1 /* Base */,
+				D2FAC2FC1D4BB4650035E0F1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D2FAC2C61D4BB1E20035E0F1 /* LaunchScreen.storyboard */ = {
+		D2FAC3001D4BB4650035E0F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2FAC2C71D4BB1E20035E0F1 /* Base */,
+				D2FAC3011D4BB4650035E0F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D2FAC2E01D4BB1E20035E0F1 /* Debug */ = {
+		D2FAC31A1D4BB4650035E0F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,10 +353,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D2FAC2E11D4BB1E20035E0F1 /* Release */ = {
+		D2FAC31B1D4BB4650035E0F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,7 +395,7 @@
 			};
 			name = Release;
 		};
-		D2FAC2E31D4BB1E20035E0F1 /* Debug */ = {
+		D2FAC31D1D4BB4650035E0F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -420,7 +406,7 @@
 			};
 			name = Debug;
 		};
-		D2FAC2E41D4BB1E20035E0F1 /* Release */ = {
+		D2FAC31E1D4BB4650035E0F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -431,7 +417,7 @@
 			};
 			name = Release;
 		};
-		D2FAC2E61D4BB1E20035E0F1 /* Debug */ = {
+		D2FAC3201D4BB4650035E0F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -443,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		D2FAC2E71D4BB1E20035E0F1 /* Release */ = {
+		D2FAC3211D4BB4650035E0F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -455,7 +441,7 @@
 			};
 			name = Release;
 		};
-		D2FAC2E91D4BB1E20035E0F1 /* Debug */ = {
+		D2FAC3231D4BB4650035E0F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Pedometer-SwiftUITests/Info.plist";
@@ -466,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		D2FAC2EA1D4BB1E20035E0F1 /* Release */ = {
+		D2FAC3241D4BB4650035E0F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Pedometer-SwiftUITests/Info.plist";
@@ -480,40 +466,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2FAC2B01D4BB1E20035E0F1 /* Build configuration list for PBXProject "Pedometer-Swift" */ = {
+		D2FAC2EF1D4BB4650035E0F1 /* Build configuration list for PBXProject "Pedometer-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2FAC2E01D4BB1E20035E0F1 /* Debug */,
-				D2FAC2E11D4BB1E20035E0F1 /* Release */,
+				D2FAC31A1D4BB4650035E0F1 /* Debug */,
+				D2FAC31B1D4BB4650035E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2FAC2E21D4BB1E20035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-Swift" */ = {
+		D2FAC31C1D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2FAC2E31D4BB1E20035E0F1 /* Debug */,
-				D2FAC2E41D4BB1E20035E0F1 /* Release */,
+				D2FAC31D1D4BB4650035E0F1 /* Debug */,
+				D2FAC31E1D4BB4650035E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		D2FAC2E51D4BB1E20035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftTests" */ = {
+		D2FAC31F1D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2FAC2E61D4BB1E20035E0F1 /* Debug */,
-				D2FAC2E71D4BB1E20035E0F1 /* Release */,
+				D2FAC3201D4BB4650035E0F1 /* Debug */,
+				D2FAC3211D4BB4650035E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		D2FAC2E81D4BB1E20035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftUITests" */ = {
+		D2FAC3221D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2FAC2E91D4BB1E20035E0F1 /* Debug */,
-				D2FAC2EA1D4BB1E20035E0F1 /* Release */,
+				D2FAC3231D4BB4650035E0F1 /* Debug */,
+				D2FAC3241D4BB4650035E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2FAC2AD1D4BB1E20035E0F1 /* Project object */;
+	rootObject = D2FAC2EC1D4BB4650035E0F1 /* Project object */;
 }

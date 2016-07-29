@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2FAC2B41D4BB1E20035E0F1"
+               BlueprintIdentifier = "D2FAC2F31D4BB4650035E0F1"
                BuildableName = "Pedometer-Swift.app"
                BlueprintName = "Pedometer-Swift"
                ReferencedContainer = "container:Pedometer-Swift.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2FAC2CD1D4BB1E20035E0F1"
+               BlueprintIdentifier = "D2FAC3071D4BB4650035E0F1"
                BuildableName = "Pedometer-SwiftTests.xctest"
                BlueprintName = "Pedometer-SwiftTests"
                ReferencedContainer = "container:Pedometer-Swift.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2FAC2D81D4BB1E20035E0F1"
+               BlueprintIdentifier = "D2FAC3121D4BB4650035E0F1"
                BuildableName = "Pedometer-SwiftUITests.xctest"
                BlueprintName = "Pedometer-SwiftUITests"
                ReferencedContainer = "container:Pedometer-Swift.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2FAC2B41D4BB1E20035E0F1"
+            BlueprintIdentifier = "D2FAC2F31D4BB4650035E0F1"
             BuildableName = "Pedometer-Swift.app"
             BlueprintName = "Pedometer-Swift"
             ReferencedContainer = "container:Pedometer-Swift.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2FAC2B41D4BB1E20035E0F1"
+            BlueprintIdentifier = "D2FAC2F31D4BB4650035E0F1"
             BuildableName = "Pedometer-Swift.app"
             BlueprintName = "Pedometer-Swift"
             ReferencedContainer = "container:Pedometer-Swift.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2FAC2B41D4BB1E20035E0F1"
+            BlueprintIdentifier = "D2FAC2F31D4BB4650035E0F1"
             BuildableName = "Pedometer-Swift.app"
             BlueprintName = "Pedometer-Swift"
             ReferencedContainer = "container:Pedometer-Swift.xcodeproj">
