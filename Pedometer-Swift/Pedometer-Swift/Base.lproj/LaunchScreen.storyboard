@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,13 +18,136 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-pY-Rpc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="657" id="NQL-2g-Xkq"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="NQL-2g-Xkq"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="NQL-2g-Xkq"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="4cy-re-IEw">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="PRB-8G-Tyc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="664" id="FUL-My-tC1">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="857"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FUL-My-tC1"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FUL-My-tC1"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UUG-pY-Rpc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="55" id="4ot-Gr-Uvg"/>
+                            <constraint firstItem="4cy-re-IEw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8F0-oE-5Dn"/>
+                            <constraint firstItem="UUG-pY-Rpc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Cgv-8y-Ota"/>
+                            <constraint firstAttribute="trailing" secondItem="PRB-8G-Tyc" secondAttribute="trailing" id="KyC-DS-WNy"/>
+                            <constraint firstAttribute="bottom" secondItem="4cy-re-IEw" secondAttribute="bottom" constant="20" symbolic="YES" id="WWY-aT-ryM">
+                                <variation key="heightClass=regular-widthClass=compact" constant="110"/>
+                            </constraint>
+                            <constraint firstItem="4cy-re-IEw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="251" id="p9g-gZ-oxN">
+                                <variation key="heightClass=regular-widthClass=compact" constant="90"/>
+                            </constraint>
+                            <constraint firstItem="UUG-pY-Rpc" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="q5U-KH-qqZ"/>
+                            <constraint firstItem="PRB-8G-Tyc" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="txK-yD-1yM"/>
+                            <constraint firstAttribute="trailing" secondItem="4cy-re-IEw" secondAttribute="trailing" id="v51-UV-Zh8"/>
+                            <constraint firstItem="PRB-8G-Tyc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="wuK-lQ-poa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="UUG-pY-Rpc"/>
+                                <exclude reference="4cy-re-IEw"/>
+                                <exclude reference="PRB-8G-Tyc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8F0-oE-5Dn"/>
+                                <exclude reference="WWY-aT-ryM"/>
+                                <exclude reference="p9g-gZ-oxN"/>
+                                <exclude reference="v51-UV-Zh8"/>
+                                <exclude reference="KyC-DS-WNy"/>
+                                <exclude reference="txK-yD-1yM"/>
+                                <exclude reference="wuK-lQ-poa"/>
+                                <exclude reference="4ot-Gr-Uvg"/>
+                                <exclude reference="Cgv-8y-Ota"/>
+                                <exclude reference="q5U-KH-qqZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="PRB-8G-Tyc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="KyC-DS-WNy"/>
+                                <include reference="txK-yD-1yM"/>
+                                <include reference="wuK-lQ-poa"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="UUG-pY-Rpc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="4ot-Gr-Uvg"/>
+                                <include reference="Cgv-8y-Ota"/>
+                                <include reference="q5U-KH-qqZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="4cy-re-IEw"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8F0-oE-5Dn"/>
+                                <include reference="WWY-aT-ryM"/>
+                                <include reference="p9g-gZ-oxN"/>
+                                <include reference="v51-UV-Zh8"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="ep7-1w-O4D">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="800" id="KcG-2j-Dbi"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="KcG-2j-Dbi"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact-widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="KcG-2j-Dbi"/>
+                        </mask>
+                    </variation>
+                </imageView>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="51" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Shoes" width="2048" height="2048"/>
+    </resources>
 </document>

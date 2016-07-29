@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2303E651D4C1C8400B64934 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2303E641D4C1C8400B64934 /* HistoricViewController.swift */; };
+		D2303E671D4C1CC400B64934 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2303E661D4C1CC400B64934 /* DatePickerViewController.swift */; };
 		D2FAC2F81D4BB4650035E0F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2F71D4BB4650035E0F1 /* AppDelegate.swift */; };
 		D2FAC2FA1D4BB4650035E0F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC2F91D4BB4650035E0F1 /* ViewController.swift */; };
-		D2FAC2FD1D4BB4650035E0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC2FB1D4BB4650035E0F1 /* Main.storyboard */; };
 		D2FAC2FF1D4BB4650035E0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC2FE1D4BB4650035E0F1 /* Assets.xcassets */; };
-		D2FAC3021D4BB4650035E0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC3001D4BB4650035E0F1 /* LaunchScreen.storyboard */; };
 		D2FAC30D1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC30C1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift */; };
 		D2FAC3181D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAC3171D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift */; };
+		D2FAC32F1D4BB5370035E0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC32B1D4BB5370035E0F1 /* LaunchScreen.storyboard */; };
+		D2FAC3301D4BB5370035E0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAC32D1D4BB5370035E0F1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2303E641D4C1C8400B64934 /* HistoricViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
+		D2303E661D4C1CC400B64934 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		D2FAC2F41D4BB4650035E0F1 /* Pedometer-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pedometer-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FAC2F71D4BB4650035E0F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2FAC2F91D4BB4650035E0F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2FAC2FC1D4BB4650035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2FAC2FE1D4BB4650035E0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2FAC3011D4BB4650035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2FAC3031D4BB4650035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2FAC3081D4BB4650035E0F1 /* Pedometer-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pedometer-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FAC30C1D4BB4650035E0F1 /* Pedometer_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer_SwiftTests.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		D2FAC3131D4BB4650035E0F1 /* Pedometer-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pedometer-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FAC3171D4BB4650035E0F1 /* Pedometer_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer_SwiftUITests.swift; sourceTree = "<group>"; };
 		D2FAC3191D4BB4650035E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FAC32C1D4BB5370035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2FAC32E1D4BB5370035E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 		D2FAC2F61D4BB4650035E0F1 /* Pedometer-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				D2FAC32B1D4BB5370035E0F1 /* LaunchScreen.storyboard */,
+				D2FAC32D1D4BB5370035E0F1 /* Main.storyboard */,
 				D2FAC2F71D4BB4650035E0F1 /* AppDelegate.swift */,
 				D2FAC2F91D4BB4650035E0F1 /* ViewController.swift */,
-				D2FAC2FB1D4BB4650035E0F1 /* Main.storyboard */,
+				D2303E641D4C1C8400B64934 /* HistoricViewController.swift */,
+				D2303E661D4C1CC400B64934 /* DatePickerViewController.swift */,
 				D2FAC2FE1D4BB4650035E0F1 /* Assets.xcassets */,
-				D2FAC3001D4BB4650035E0F1 /* LaunchScreen.storyboard */,
 				D2FAC3031D4BB4650035E0F1 /* Info.plist */,
 			);
 			path = "Pedometer-Swift";
@@ -229,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FAC3021D4BB4650035E0F1 /* LaunchScreen.storyboard in Resources */,
+				D2FAC3301D4BB5370035E0F1 /* Main.storyboard in Resources */,
 				D2FAC2FF1D4BB4650035E0F1 /* Assets.xcassets in Resources */,
-				D2FAC2FD1D4BB4650035E0F1 /* Main.storyboard in Resources */,
+				D2FAC32F1D4BB5370035E0F1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2303E671D4C1CC400B64934 /* DatePickerViewController.swift in Sources */,
+				D2303E651D4C1C8400B64934 /* HistoricViewController.swift in Sources */,
 				D2FAC2FA1D4BB4650035E0F1 /* ViewController.swift in Sources */,
 				D2FAC2F81D4BB4650035E0F1 /* AppDelegate.swift in Sources */,
 			);
@@ -293,20 +301,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2FAC2FB1D4BB4650035E0F1 /* Main.storyboard */ = {
+		D2FAC32B1D4BB5370035E0F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2FAC2FC1D4BB4650035E0F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D2FAC3001D4BB4650035E0F1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2FAC3011D4BB4650035E0F1 /* Base */,
+				D2FAC32C1D4BB5370035E0F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D2FAC32D1D4BB5370035E0F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2FAC32E1D4BB5370035E0F1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +490,7 @@
 				D2FAC31E1D4BB4650035E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2FAC31F1D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				D2FAC3211D4BB4650035E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2FAC3221D4BB4650035E0F1 /* Build configuration list for PBXNativeTarget "Pedometer-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				D2FAC3241D4BB4650035E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
