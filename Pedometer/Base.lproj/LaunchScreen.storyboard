@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +21,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="UUG-pY-Rpc">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="657" id="NQL-2g-Xkq"/>
                                 </constraints>
@@ -37,11 +37,9 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="4cy-re-IEw">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="PRB-8G-Tyc">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="664" id="FUL-My-tC1">
                                         <variation key="heightClass=compact-widthClass=regular" constant="857"/>
@@ -59,7 +57,6 @@
                                 </variation>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UUG-pY-Rpc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="55" id="4ot-Gr-Uvg"/>
@@ -88,12 +85,12 @@
                                 <exclude reference="WWY-aT-ryM"/>
                                 <exclude reference="p9g-gZ-oxN"/>
                                 <exclude reference="v51-UV-Zh8"/>
-                                <exclude reference="4ot-Gr-Uvg"/>
-                                <exclude reference="Cgv-8y-Ota"/>
-                                <exclude reference="q5U-KH-qqZ"/>
                                 <exclude reference="KyC-DS-WNy"/>
                                 <exclude reference="txK-yD-1yM"/>
                                 <exclude reference="wuK-lQ-poa"/>
+                                <exclude reference="4ot-Gr-Uvg"/>
+                                <exclude reference="Cgv-8y-Ota"/>
+                                <exclude reference="q5U-KH-qqZ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -132,7 +129,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="ep7-1w-O4D">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="width" constant="800" id="KcG-2j-Dbi"/>
                     </constraints>
